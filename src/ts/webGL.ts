@@ -4,6 +4,7 @@ import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
 import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass.js";
 import { OrbitControls } from "three/examples/jsm/controls/orbitcontrols.js";
+import * as THREE from "three";
 
 // Utils import
 import { FovfromHeight } from "./utils/calculate";
