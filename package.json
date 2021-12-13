@@ -1,0 +1,49 @@
+{
+  "name": "front-end-demo",
+  "version": "0.0.1",
+  "description": "TS front-end demo project with html, scss, three and barba",
+  "main": "index.js",
+  "scripts": {
+    "run": "webpack serve --config webpack.multi.js --open",
+    "build": "webpack --config webpack.multi.js",
+    "run:chrome": "webpack serve --open-app-name 'google-chrome'"
+  },
+  "keywords": [
+    "webgl",
+    "html",
+    "scss",
+    "typseScript",
+    "pagetransitions"
+  ],
+  "devDependencies": {
+    "@barba/prefetch": "^2.1.10",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "netlify-cli": "^8.0.1",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "ts-shader-loader": "^1.0.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@types/fontfaceobserver": "^2.1.0",
+    "@types/imagesloaded": "^4.1.2",
+    "@types/three": "^0.134.0",
+    "fontfaceobserver": "^2.1.0",
+    "gsap": "^3.8.0",
+    "imagesloaded": "^4.1.4",
+    "lodash": "^4.17.21",
+    "pjax": "^0.2.8",
+    "three": "^0.134.0"
+  },
+  "author": "Bart Kipping",
+  "license": "ISC"
+}
